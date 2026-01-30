@@ -74,4 +74,4 @@ demo = gr.Interface(fn=predict, # mapping function from input to output
                     article=article)
 
 # Launch the demo!
-demo.launch()
+demo.launch(share=True)
